@@ -1,0 +1,160 @@
+<body>
+
+    <style>
+        .container {
+            height: 150px;
+            border-color: blue;
+            border-width: 1px;
+            border-style: solid;   
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .item{
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;   
+        }
+        .item1 {
+            min-height: 30px;
+            width: 250px;
+            background-color: red;
+        }
+
+        .item2 {
+            min-height: 50px;
+            width: 360px;
+            background-color: yellow;
+        }
+
+        .item3 {
+            min-height: 15px;
+            width: 170px;
+            background-color: rgb(0, 187, 255);
+        }
+        .item4 {
+            min-height: 35px;
+            width: 470px;
+            background-color: rgb(34, 195, 90);
+        }
+        .item5 {
+            height: 40px;
+            width: 510px;
+            background-color: rgb(214, 115, 194);
+        }
+        
+    </style>
+
+
+    <h2>Stretch</h2>
+    <div class="container">
+        <div class="item item1">
+            item1
+        </div>
+
+        <div class="item item2">
+            item2
+        </div>
+
+        <div class="item item3">
+            item3
+        </div>
+
+        <div class="item item4">
+            item4
+        </div>
+        <div class="item item5">
+            item5
+        </div>
+    </div>
+
+    <h2>Flex Start</h2>
+    <div class="container" style="align-items: flex-start;">
+        <div class="item item1">
+            item1
+        </div>
+
+        <div class="item item2">
+            item2
+        </div>
+
+        <div class="item item3">
+            item3
+        </div>
+
+        <div class="item item4">
+            item4
+        </div>
+        <div class="item item5">
+            item5
+        </div>
+    </div>
+
+    <h2>Flex End</h2>
+    <div class="container" style="align-items: flex-end;">
+        <div class="item item1">
+            item1
+        </div>
+
+        <div class="item item2">
+            item2
+        </div>
+
+        <div class="item item3">
+            item3
+        </div>
+
+        <div class="item item4">
+            item4
+        </div>
+        <div class="item item5">
+            item5
+        </div>
+    </div>
+
+    <h2>Center</h2>
+    <div class="container" style="align-items: center;">
+        <div class="item item1">
+            item1
+        </div>
+
+        <div class="item item2">
+            item2
+        </div>
+
+        <div class="item item3">
+            item3
+        </div>
+
+        <div class="item item4">
+            item4
+        </div>
+        <div class="item item5">
+            item5
+        </div>
+    </div>
+
+
+    <h2>Baseline</h2>
+    <div class="container" style="align-items: baseline;">
+        <div class="item item1">
+            item1
+        </div>
+
+        <div class="item item2">
+            <h1>item2</h1>
+        </div>
+
+        <div class="item item3">
+            item3
+        </div>
+
+        <div class="item item4">
+            item4
+        </div>
+        <div class="item item5">
+            item5
+        </div>
+    </div>
+
+
+</body>
